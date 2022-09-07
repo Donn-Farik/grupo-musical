@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,300;1,400;1,500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-image: url("https://media.revistagq.com/photos/5ef9ae8609f9a6fc5dffb0b4/4:3/w_1600,h_1200,c_limit/black%20eyed%20peas.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items:flex-end;
+  
+}
+.header h1{
+  color: white;
+}
+.nav-bar {
+  height: 3rem;
+  background-color: #11121b;
+}
+.nav-bar ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  font-size: medium;
+  font-weight: 900;
+  min-height: 100%;
+}
+.nav-bar a {
+  text-decoration: none;
+  color: #e05263;
+}
+.nav-bar a:hover {
+  color: #904c54;
+}
+
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  font-size: 3rem;
+  color:aliceblue;
+}
+.bio {
+  background-color: #11121b
+}
+.bio p {
+  
+  font-family: roboto;
+  padding:20px 60px 50px;
+  color:aliceblue;
+  line-height: 25px;
+  
+  
+  
+}
+/* section members */
+.members {
+  background-color: #061227;
+  
+  padding-bottom:90px ;
+}
+.members-carts {
+  display: flex;
+  justify-content: space-around;
+
+  flex-wrap: wrap;
+  
+}
+.member-style {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgba(0, 0, 0, 0.213);
+  border-radius: 3%;
+  padding: 3px;
+  -webkit-border-radius: 3%;
+  -moz-border-radius: 3%;
+  -ms-border-radius: 3%;
+  -o-border-radius: 3%;
+  background-color: aliceblue;
+}
+.member-style img {
+  height: 200px;
+  width: 200px;
+  border-radius: 3%;
+  box-shadow: #11121b;
+  -webkit-border-radius:;
+  -moz-border-radius:;
+  -ms-border-radius:;
+  -o-border-radius:;
+}
+.member-style p {
+  min-height: 200px;
+  width: 200px;
+  font-family: roboto;
+  font-size: 16px;
+  padding: 15px;
+  
+}
+.member-style h4{
+  text-align: center;
+  padding-top: 20px;
+}
+/* section de canciones */
+.canciones {
+  background-color: #11121b;
+  padding-bottom:90px ;
+}
+.canciones-carts {
+  display: flex;
+  justify-content: space-around;
+
+  flex-wrap: wrap;
+  
+}
+.canciones-style {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgba(0, 0, 0, 0.213);
+  border-radius: 3%;
+  padding: 3px;
+  -webkit-border-radius:;
+  -moz-border-radius:;
+  -ms-border-radius:;
+  -o-border-radius:;
+  background-color: aliceblue;
+}
+.canciones-style img {
+  height: 200px;
+  width: 200px;
+  border-radius: 3%;
+  box-shadow: #11121b;
+  -webkit-border-radius:;
+  -moz-border-radius:;
+  -ms-border-radius:;
+  -o-border-radius:;
+}
+.canciones-style p {
+  height: 200px;
+  width: 200px;
+  font-family: roboto;
+  font-size: 16px;
+}
+.canciones-style button{
+  background-color: transparent;
+  width: 100%;
+  padding: 5px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin: 20px 0 ;
+}
+.canciones-style h4{
+  text-align: center;
+  padding-top: 20px;
+}
+.foot{
+  background-color: #061227;
+  
+  color: antiquewhite;
+  display: flex;
+  
+  justify-content: center;
+  
+  
+}
+.contact{
+  padding: 30px;
+  font-size: 30px;
+  line-height: 40px;
+}
